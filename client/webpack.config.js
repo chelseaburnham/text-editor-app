@@ -28,8 +28,8 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Editor',
-        short_name: 'Edit',
+        name: 'Text Editor',
+        short_name: 'Editor', 
         description: 'Edit Text!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
